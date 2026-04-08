@@ -29,32 +29,36 @@ snakegame/
 │   └── head.png         # Directional head sprite
 ├── Board.java           # Core Game Engine (Logic, Timers, Physics)
 └── SnakeGame.java       # Main entry point and Frame configuration
+```
 🎮 Getting Started
-Prerequisites
-Java Development Kit (JDK) installed.
-
-An IDE (IntelliJ, Eclipse, VS Code) or terminal access.
-
-Installation & Execution
-Clone the repository:
-
-Bash
+---
+### Prerequisites
+* Java Development Kit (JDK) installed.
+* An IDE (IntelliJ, Eclipse, VS Code) or terminal access.
+---
+### Installation & Execution
+### 1. Clone the repository:
+```
 git clone [https://github.com/kunnalsinngh14/Snake-Game-Java.git](https://github.com/kunnalsinngh14/Snake-Game-Java.git)
-Navigate to the source folder:
-
-Bash
+```
+### 2. Navigate to the source folder:
+```
 cd snakegame
-Compile the code:
-
-Bash
+```
+### 3. Compile the code:
+```
 javac snakegame/*.java
-Run the application:
-
-Bash
+```
+### 4. Run the application:
+```
 java snakegame.SnakeGame
-⌨️ Controls
+```
+### ⌨️ Controls
+```
 Arrow Keys: Use UP, DOWN, LEFT, and RIGHT to navigate.
-
-Goal: Consume apples to grow your snake while avoiding the boundaries and your own tail.
-
-Developed by Kunal Singh — B.Tech Computer Science (AI/ML) @ RV University.
+```
+---   
+   Goal: Consume apples to grow your snake while avoiding the boundaries and your own tail.
+   
+---
+© 2026 Kunal Singh
